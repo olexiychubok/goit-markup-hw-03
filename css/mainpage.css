@@ -1,9 +1,18 @@
 /* MAIN! */
 /* hero */
 
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .hero {
-    background-color: var(--section)
-    ;
+    background-color: var(--section);
+}
+
+.hero-main .container {
+    border: 1px solid tomato;
 }
 
 .hero-title {
@@ -16,6 +25,11 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--second-text);
+    display: inline-block;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-left: 272px;
+    padding-right: 272px;
 }
 
 .hero-main .button {
@@ -24,10 +38,13 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    display: inline-block;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 221px;
 }
 
 .hero-main .button.link {
