@@ -1,0 +1,125 @@
+:root {
+    --second-text: rgba(255, 255, 255, 1);
+    --main-text: rgba(33, 33, 33, 1);
+    --hover-text: rgba(33, 150, 243, 1);
+    --link-text: rgba(117, 117, 117, 1);
+    --address-text-op60: rgba(255, 255, 255, 0.6);
+    --section: rgba(47, 48, 58, 1);
+    --section-team: rgba(245, 244, 250, 1);
+
+
+}
+
+/* for all */
+
+.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: var(--second-text);
+}
+
+/* logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--hover-text);
+}
+
+.logo-web {
+    color: var(--main-text);
+}
+
+/* site-nav */
+
+.site-nav {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link a {
+    text-decoration: none;
+    color: var(--main-text)
+}
+
+.site-nav .link .item:hover,
+.site-nav .link .item:focus {
+    color: var(--hover-text)
+}
+
+/* nav-contacts */
+
+.contact {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact .link .item {
+    list-style: none;
+    text-decoration: none;
+    color: var(--link-text)
+}
+
+.contact .link .item:hover,
+.contact .link .item:focus {
+    color: var(--hover-text);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--section);
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--hover-text);
+}
+
+.logo-footer {
+    color: var(--second-text);
+}
+
+.address {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-text {
+    color: var(--second-text);
+}
+
+.address .item {
+    color: var(--link-text);
+}
+
+.address .item:hover,
+.address .item:focus {
+    color: var(--hover-text)
+}
