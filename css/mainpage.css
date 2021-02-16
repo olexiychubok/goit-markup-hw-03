@@ -99,10 +99,6 @@
 
 /* doing */
 
-.doing {
-    border: 1px solid tomato;
-}
-
 .doing-title {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -117,6 +113,7 @@
 
 .doing-list.link {
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-bottom: 94px;
     padding-left: 0px;
     display: flex;
@@ -146,6 +143,8 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text);
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .team-name {
@@ -168,4 +167,40 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--link-text);
+}
+
+.team-list.link {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 94px 0px;
+}
+
+.team-img {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.card .team-name {
+    padding-bottom: 10px;
+}
+
+.card .team-text {
+    padding-bottom: 30px;
+}
+
+.card:nth-last-child(n+1) {
+    margin-left: 30px;
+}
+
+.card:first-child {
+    margin-left: 0px;
 }
