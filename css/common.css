@@ -144,6 +144,11 @@ img {
     color: var(--second-text);
 }
 
+.all-logo-footer {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
 .address {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -151,6 +156,18 @@ img {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: column;
+}
+
+.address > p {
+    padding-bottom: 9px;
+}
+
+.address .item.link:last-child {
+    display: inline;
+    margin-top: 9px;
+    margin-bottom: 60px;
 }
 
 .address-text {
