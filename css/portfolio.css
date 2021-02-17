@@ -1,7 +1,14 @@
 /* MAIN! */
 
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .portfolio {
     background-color: var(--second-text);
+    border: 1px solid red;
 }
 
 .portfolio-title {
@@ -20,12 +27,34 @@
     background-color: var(--section-team);
     color: var(--main-text);
     outline: none;
+    padding: 6px 22px 6px 22px;
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--hover-text);
     color: var(--second-text);
+}
+
+.portfolio-buttons.link {
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 94px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons.link:nth-last-child(n+1) {
+    margin: 0px -8px;
+}
+
+.buttons {
+    margin-left: 8px;
+}
+
+.buttons:first-child {
+    margin-left: 0px;
 }
 
 /* projects */
