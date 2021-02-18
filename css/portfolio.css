@@ -8,7 +8,6 @@
 
 .portfolio {
     background-color: var(--second-text);
-    border: 1px solid red;
 }
 
 .portfolio-title {
@@ -59,6 +58,10 @@
 
 /* projects */
 
+.projects {
+    display: none;
+}
+
 .project-name {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -77,4 +80,28 @@
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--link-text);
+    margin-top: 4px;
+}
+
+.project-list.link {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+    padding-bottom: 94px;
+}
+
+.project-item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-project-content {
+    padding: 20px 24px;
+    border-right: 1px solid rgba(238, 238, 238, 1);
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    border-left: 1px solid rgba(238, 238, 238, 1);    
 }
