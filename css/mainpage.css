@@ -28,6 +28,11 @@
     padding-right: 272px;
 }
 
+.hero-main.container {
+    display: block;
+    padding-bottom: 200px;
+}
+
 .hero-main .button {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -37,15 +42,13 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    display: inline-block;
 }
 
 .hero-main .button.link {
-    display: inline-block;
+    display: block;
     white-space: nowrap;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--hover-text);
     color: var(--second-text);
     padding: 10px 32px 10px 32px;
